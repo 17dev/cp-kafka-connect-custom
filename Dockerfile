@@ -32,11 +32,9 @@ RUN confluent-hub install --no-prompt apache/kafka-connect-geode:latest && \
     confluent-hub install --no-prompt debezium/debezium-connector-postgresql:latest && \
     confluent-hub install --no-prompt debezium/debezium-connector-sqlserver:latest && \
     confluent-hub install --no-prompt dhananjaypatkar/kafka-connect-phoenix:latest && \
-    confluent-hub install --no-prompt f0xdx/kafka-connect-wrap-smt:latest && \
     confluent-hub install --no-prompt fbascheper/kafka-connect-telegram:latest && \
     confluent-hub install --no-prompt findinpath/kafka-connect-nested-set-jdbc-sink:latest && \
     confluent-hub install --no-prompt hpgrahsl/kafka-connect-mongodb:latest && \
-    confluent-hub install --no-prompt humio/kafka-connect-hec-sink:latest && \
     confluent-hub install --no-prompt jaredpetersen/kafka-connect-arangodb:latest && \
     confluent-hub install --no-prompt jcustenborder/kafka-connect-aerospike:latest && \
     confluent-hub install --no-prompt jcustenborder/kafka-connect-email:latest && \
@@ -54,9 +52,6 @@ RUN confluent-hub install --no-prompt apache/kafka-connect-geode:latest && \
     confluent-hub install --no-prompt jcustenborder/kafka-connect-transform-maxmind:latest && \
     confluent-hub install --no-prompt jcustenborder/kafka-connect-transform-xml:latest && \
     confluent-hub install --no-prompt jcustenborder/kafka-connect-twitter:latest && \
-    confluent-hub install --no-prompt juxt/kafka-connect-crux:latest && \
-    confluent-hub install --no-prompt kaliy/kafka-connect-rss:latest && \
-    confluent-hub install --no-prompt marklogic/kafka-marklogic-connector:latest && \
     confluent-hub install --no-prompt memsql/memsql-kafka-connector:latest && \
     confluent-hub install --no-prompt microsoft/kafka-connect-iothub:latest && \
     confluent-hub install --no-prompt microsoftcorporation/kafka-sink-azure-kusto:latest && \
@@ -65,7 +60,6 @@ RUN confluent-hub install --no-prompt apache/kafka-connect-geode:latest && \
     confluent-hub install --no-prompt neo4j/kafka-connect-neo4j:latest && \
     confluent-hub install --no-prompt newrelic/newrelic-kafka-connector:latest && \
     confluent-hub install --no-prompt nishutayal/kafka-connect-hbase:latest && \
-    confluent-hub install --no-prompt norsktipping/kafka-connect-jdbc_flatten:latest && \
     confluent-hub install --no-prompt riferrei/kafka-connect-pulsar:latest && \
     confluent-hub install --no-prompt rockset/kafka-connect-rockset:latest && \
     confluent-hub install --no-prompt rudderstack/kafka-connect-rudderstack:latest && \

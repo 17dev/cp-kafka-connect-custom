@@ -51,9 +51,7 @@ RUN confluent-hub install --no-prompt apache/kafka-connect-geode:latest && \
     confluent-hub install --no-prompt jcustenborder/kafka-connect-transform-fix:latest && \
     confluent-hub install --no-prompt jcustenborder/kafka-connect-transform-maxmind:latest && \
     confluent-hub install --no-prompt jcustenborder/kafka-connect-transform-xml:latest && \
-    confluent-hub install --no-prompt jcustenborder/kafka-connect-twitter:latest && \
     confluent-hub install --no-prompt memsql/memsql-kafka-connector:latest && \
-    confluent-hub install --no-prompt microsoft/kafka-connect-iothub:latest && \
     confluent-hub install --no-prompt microsoftcorporation/kafka-sink-azure-kusto:latest && \
     confluent-hub install --no-prompt mmolimar/kafka-connect-fs:latest && \
     confluent-hub install --no-prompt mongodb/kafka-connect-mongodb:latest && \

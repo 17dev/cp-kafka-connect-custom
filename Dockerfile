@@ -1,8 +1,8 @@
-FROM confluentinc/cp-kafka-connect-base
+FROM confluentinc/cp-kafka-connect-base:6.1.0
 
 
 LABEL org.opencontainers.image.authors="rimonhm@gmail.com" \
-      org.opencontainers.image.version="6.0.0_1.0.3_community" \
+      org.opencontainers.image.version="6.1.0_community" \
       org.opencontainers.image.title="cp-kafka-connect-custom" \
       org.opencontainers.image.description="A custom Confluent Platform Kafka Connect container with additional community licensed connectors from Confluent Hub."
 

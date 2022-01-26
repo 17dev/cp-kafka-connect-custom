@@ -23,15 +23,10 @@ RUN confluent-hub install --no-prompt blueapron/kafka-connect-protobuf-converter
     confluent-hub install --no-prompt debezium/debezium-connector-mysql:latest && \
     confluent-hub install --no-prompt debezium/debezium-connector-postgresql:latest && \
     confluent-hub install --no-prompt debezium/debezium-connector-sqlserver:latest && \
-    confluent-hub install --no-prompt jaredpetersen/kafka-connect-arangodb:latest && \
-    confluent-hub install --no-prompt jcustenborder/kafka-connect-aerospike:latest && \
     confluent-hub install --no-prompt jcustenborder/kafka-connect-email:latest && \
     confluent-hub install --no-prompt jcustenborder/kafka-connect-flume-avro:latest && \
     confluent-hub install --no-prompt jcustenborder/kafka-connect-json-schema:latest && \
-    confluent-hub install --no-prompt jcustenborder/kafka-connect-memcached:latest && \
-    confluent-hub install --no-prompt jcustenborder/kafka-connect-opentsdb:latest && \
-    confluent-hub install --no-prompt jcustenborder/kafka-connect-spooldir:latest && \
-    confluent-hub install --no-prompt memsql/memsql-kafka-connector:latest && \
+    confluent-hub install --no-prompt jcustenborder/kafka-connect-spooldir:2.0.62 && \
     confluent-hub install --no-prompt microsoftcorporation/kafka-sink-azure-kusto:latest && \
     confluent-hub install --no-prompt mongodb/kafka-connect-mongodb:latest && \
     confluent-hub install --no-prompt neo4j/kafka-connect-neo4j:latest && \

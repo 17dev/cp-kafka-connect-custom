@@ -35,9 +35,6 @@ RUN confluent-hub install --no-prompt blueapron/kafka-connect-protobuf-converter
     confluent-hub install --no-prompt rudderstack/kafka-connect-rudderstack:latest && \
     confluent-hub install --no-prompt sanjuthomas/kafka-connect-gcp-bigtable:latest && \
     confluent-hub install --no-prompt sanjuthomas/kafka-connect-orientdb:latest && \
-    confluent-hub install --no-prompt ScyllaDB/kafka-connect-scylladb:latest && \
     confluent-hub install --no-prompt snowflakeinc/snowflake-kafka-connector:latest && \
-    confluent-hub install --no-prompt splunk/kafka-connect-splunk:latest && \
     confluent-hub install --no-prompt streamthoughts/kafka-connect-file-pulse:latest && \
-    confluent-hub install --no-prompt wepay/kafka-connect-bigquery:latest && \
-    confluent-hub install --no-prompt yugabyteinc/yb-kafka-connector:latest 
+    confluent-hub install --no-prompt wepay/kafka-connect-bigquery:latest 

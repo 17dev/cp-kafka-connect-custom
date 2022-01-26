@@ -21,7 +21,10 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag rimonhm/cp-kafka-connect-custom:$(date +%s)
+      run: docker build . --file Dockerfile --tag cp-kafka-connect-custom:1.0
+    
+    - name: Docker Tag
+      run: docker tag cp-kafka-connect-custom:1.0 rimonhm/cp-kafka-connect-custom:1.0
       
     - name: Docker Push
-      run: docker push rimonhm/cp-kafka-connect-custom
+      run: docker push rimonhm/cp-kafka-connect-custom:1.0
